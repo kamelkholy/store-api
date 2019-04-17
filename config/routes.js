@@ -72,20 +72,23 @@ module.exports.routes = {
   "PUT  /api/v1/customer": "CustomerController.update",
   "DELETE  /api/v1/customer": "CustomerController.delete",
 
-  "GET  /api/v1/customer": "CartController.read",
-  "POST  /api/v1/customer": "CartController.create",
-  "PUT  /api/v1/customer": "CartController.update",
-  "DELETE  /api/v1/customer": "CartController.delete",
-  "GET  /api/v1/customer": "GenreController.read",
-  "POST  /api/v1/customer": "GenreController.create",
-  "PUT  /api/v1/customer": "GenreController.update",
-  "DELETE  /api/v1/customer": "GenreController.delete",
-  "GET  /api/v1/customer": "OrderController.read",
-  "POST  /api/v1/customer": "OrderController.create",
-  "PUT  /api/v1/customer": "OrderController.update",
-  "DELETE  /api/v1/customer": "OrderController.delete",
-  "GET  /api/v1/customer": "ProductController.read",
-  "POST  /api/v1/customer": "ProductController.create",
-  "PUT  /api/v1/customer": "ProductController.update",
-  "DELETE  /api/v1/customer": "ProductController.delete"
+  "GET  /api/v1/carts": "CartController.read",
+  "POST  /api/v1/carts": "CartController.create",
+  "PUT  /api/v1/carts": "CartController.update",
+  "DELETE  /api/v1/carts": "CartController.delete",
+
+  "GET  /api/v1/genres": "GenreController.read",
+  "POST  /api/v1/genres": "GenreController.create",
+  "PUT  /api/v1/genres": "GenreController.update",
+  "DELETE  /api/v1/genres": "GenreController.delete",
+
+  "GET  /api/v1/orders": "OrderController.read",
+  "POST  /api/v1/orders": "OrderController.create",
+  "PUT  /api/v1/orders": "OrderController.update",
+  "DELETE  /api/v1/orders": "OrderController.delete",
+
+  "GET  /api/v1/products": "ProductController.read",
+  "POST  /api/v1/products": "ProductController.create",
+  "PUT  /api/v1/products": "ProductController.update",
+  "DELETE  /api/v1/products": "ProductController.delete"
 };
