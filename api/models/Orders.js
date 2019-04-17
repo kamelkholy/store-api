@@ -9,7 +9,9 @@ module.exports = {
   attributes: {
     customer: { model: "Customers", required: true },
     cart: { model: "Carts", required: true },
-    total: { type: "number", required: true }
+    total: { type: "number", required: true },
+    billingAddress: { type: "json", required: true },
+    shippingAddress: { type: "json", required: true }
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗

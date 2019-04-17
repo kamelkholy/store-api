@@ -11,7 +11,8 @@ module.exports = {
     lastName: { type: "string", required: true },
     email: { type: "string", required: true },
     password: { type: "string", required: true },
-    address: { type: "json", required: true },
+    billingAddress: { type: "json", required: true },
+    shippingAddress: { type: "json", required: true },
     phone: { type: "string", required: true }
   }
 };
