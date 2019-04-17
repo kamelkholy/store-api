@@ -8,7 +8,7 @@
 module.exports = {
   attributes: {
     customer: { model: "Customers", required: true },
-    cart: { model: "Cart", required: true },
+    cart: { model: "Carts", required: true },
     total: { type: "number", required: true }
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
